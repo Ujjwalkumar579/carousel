@@ -1,0 +1,47 @@
+.card_wrapper
+{
+    display: flex;
+    overflow: hidden;
+}
+.card
+{
+    border: 2px dotted rgb(7, 7, 7);
+    width: fit-content;
+    margin: 20px 35px;
+    /* text-align: center; */
+    padding: 15px;
+}
+.card img
+{
+    height: 300px;
+    width: 100%;
+}
+.card >span
+{
+    font-weight: bold;
+    font-size: 25px;
+}
+.card p 
+{
+    font-weight: bold;
+    font-size: 20px;
+}
+.card p>span
+{
+    font-weight: normal;
+}
+.btn_more
+{
+    text-align: center;
+}
+.btn_more button
+{
+    
+    margin: 5px 15px;
+    color: rgb(19, 96, 211);
+    font-weight: bold;
+    font-size: 18px;
+    background: none;
+    border:none;
+    cursor: pointer;
+}
